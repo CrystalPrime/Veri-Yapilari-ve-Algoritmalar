@@ -24,7 +24,7 @@ Worst case: Aradığımız sayının sonda olması
 Best case: Aradığımız sayının dizinin en başında olması.
 Aradığımız sayı dizinin ortasında. Average case.
 
-[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+dizinin ([7,3,5,8,2,9,4,15,6]) Selection Sort'a göre ilk 4 adımını yazınız.
 [7,3,5,8,2,9,4,15,6]
 [2,7,3,5,8,9,4,15,6]
 [2,3,7,5,8,9,4,15,6]
@@ -46,4 +46,23 @@ diziler 2 elementler ve 1 element olmak üzere yine bölünür.
 2 elementli diziler 1 elementli olucak şekilde yine bölünür. 
 16 ve 21 aynı kalır [16,21] ve 8 ve 12 de [8,12] şekilde. 
 11 ve 22 2 elementli diziler ile karşılaştırılarak 3 elementli diziler oluşturulur. [11,16,21] [8,12,22] . 
-Son olarak bu iki dizilerin öğeleri karşılaştırılır. 8 ile 11 sonra 12 ile 11 gibi ve [8,11,12,21.22] dizisi elde edilir.
+Son olarak bu iki dizilerin öğeleri karşılaştırılır. 8 ile 11 sonra 12 ile 11 gibi ve [8,11,12,21.22] dizisi elde edilir.  
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Binary Search Tree
+
+
+
+       7
+      / \
+     5   8
+    / \   \
+   1   3   9
+  /   / \
+ 0   6   4
+        /
+       2
+
