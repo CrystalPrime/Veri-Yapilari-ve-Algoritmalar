@@ -40,9 +40,9 @@ Aradığımız sayı dizinin ortasında. Average case.
 
 [16,21,11,8,12,22]] -> Insertion Sort
 
--dizi ikiye bölünür [16,21,11] ve [8,12,22]
--diziler 2 elementler ve 1 element olmak üzere yine bölünür
--2 elementli diziler 1 elementli olucak şekilde yine bölünür.
--16 ve 21 aynı kalır [16,21] ve 8 ve 12 de [8,12] şekilde
--11 ve 22 2 elementli diziler ile karşılaştırılarak 3 elementli diziler oluşturulur. [11,16,21] [8,12,22]
--Son olarak bu iki dizilerin öğeleri karşılaştırılır. 8 ile 11 sonra 12 ile 11 gibi ve [8,11,12,21.22] dizisi elde edilir.
+dizi ikiye bölünür [16,21,11] ve [8,12,22]
+diziler 2 elementler ve 1 element olmak üzere yine bölünür
+2 elementli diziler 1 elementli olucak şekilde yine bölünür.
+16 ve 21 aynı kalır [16,21] ve 8 ve 12 de [8,12] şekilde
+11 ve 22 2 elementli diziler ile karşılaştırılarak 3 elementli diziler oluşturulur. [11,16,21] [8,12,22]
+Son olarak bu iki dizilerin öğeleri karşılaştırılır. 8 ile 11 sonra 12 ile 11 gibi ve [8,11,12,21.22] dizisi elde edilir.
